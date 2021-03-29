@@ -63,6 +63,7 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -84,12 +85,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddBook.Designer.vb">
-      <DependentUpon>AddBook.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AddBook.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="bookDisplay.Designer.vb">
       <DependentUpon>bookDisplay.vb</DependentUpon>
     </Compile>
@@ -97,6 +92,24 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="displayBookvb.vb" />
+    <Compile Include="advanceSearch.Designer.vb">
+      <DependentUpon>advanceSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="advanceSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Main.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -120,22 +133,29 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="utils.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AddBook.resx">
-      <DependentUpon>AddBook.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="bookDisplay.resx">
       <DependentUpon>bookDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="advanceSearch.resx">
+      <DependentUpon>advanceSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -186,35 +206,43 @@
     <None Include="Resources\pic 1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Utilities\API\" />
-    <Folder Include="Utilities\Forms\" />
+    <None Include="Resources\Rectangle 5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\addBookBtn.png" />
+    <None Include="Resources\Log In Dialog Box.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AdminIcon.png" />
+    <None Include="Resources\Username.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bookPng.png" />
+    <None Include="Resources\padlock.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\borrowBtn.png" />
+    <None Include="Resources\user %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\recordsBtn.png" />
+    <None Include="Resources\Polygon3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\addIcon.png" />
+    <None Include="Resources\Rectangle 221.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\reserveBtn.png" />
+    <None Include="Resources\pic 1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\addImageBtn.png" />
+    <None Include="Resources\Line 9.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\addImageBtn %281%29.png" />
+    <None Include="Resources\Line 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find on Shelf Elements.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find on Shelf Elements2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find on Shelf Elements3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
