@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class login
-    Inherits MetroFramework.Forms.MetroForm
+    Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -28,13 +28,13 @@ Partial Class login
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
-        Me.RectangleShape4 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.RectangleShape3 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.RectangleShape2 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         Me.loginBtnLoginForm = New System.Windows.Forms.Button()
         Me.userNameTxtbox = New System.Windows.Forms.TextBox()
         Me.passTxtBox = New System.Windows.Forms.TextBox()
+        Me.RectangleShape4 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -98,63 +98,47 @@ Partial Class login
         '
         'ShapeContainer1
         '
-        Me.ShapeContainer1.Location = New System.Drawing.Point(20, 60)
+        Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape4, Me.RectangleShape3, Me.RectangleShape2, Me.RectangleShape1})
-        Me.ShapeContainer1.Size = New System.Drawing.Size(696, 413)
+        Me.ShapeContainer1.Size = New System.Drawing.Size(736, 493)
         Me.ShapeContainer1.TabIndex = 2
         Me.ShapeContainer1.TabStop = False
-        '
-        'RectangleShape4
-        '
-        Me.RectangleShape4.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.RectangleShape4.BorderColor = System.Drawing.Color.White
-        Me.RectangleShape4.CornerRadius = 41
-        Me.RectangleShape4.FillColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(146, Byte), Integer))
-        Me.RectangleShape4.FillGradientColor = System.Drawing.Color.White
-        Me.RectangleShape4.FillGradientStyle = Microsoft.VisualBasic.PowerPacks.FillGradientStyle.BackwardDiagonal
-        Me.RectangleShape4.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.RectangleShape4.Location = New System.Drawing.Point(535, -47)
-        Me.RectangleShape4.Name = "RectangleShape4"
-        Me.RectangleShape4.Size = New System.Drawing.Size(339, 215)
         '
         'RectangleShape3
         '
         Me.RectangleShape3.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.RectangleShape3.BorderColor = System.Drawing.Color.White
         Me.RectangleShape3.CornerRadius = 41
         Me.RectangleShape3.FillColor = System.Drawing.Color.White
         Me.RectangleShape3.FillGradientColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(146, Byte), Integer))
         Me.RectangleShape3.FillGradientStyle = Microsoft.VisualBasic.PowerPacks.FillGradientStyle.BackwardDiagonal
         Me.RectangleShape3.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.RectangleShape3.Location = New System.Drawing.Point(-82, 321)
+        Me.RectangleShape3.Location = New System.Drawing.Point(-69, 409)
         Me.RectangleShape3.Name = "RectangleShape3"
         Me.RectangleShape3.Size = New System.Drawing.Size(339, 215)
         '
         'RectangleShape2
         '
         Me.RectangleShape2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.RectangleShape2.BorderColor = System.Drawing.Color.White
         Me.RectangleShape2.CornerRadius = 41
         Me.RectangleShape2.FillColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(146, Byte), Integer))
         Me.RectangleShape2.FillGradientColor = System.Drawing.Color.White
         Me.RectangleShape2.FillGradientStyle = Microsoft.VisualBasic.PowerPacks.FillGradientStyle.ForwardDiagonal
         Me.RectangleShape2.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.RectangleShape2.Location = New System.Drawing.Point(-72, -57)
+        Me.RectangleShape2.Location = New System.Drawing.Point(-52, -17)
         Me.RectangleShape2.Name = "RectangleShape2"
         Me.RectangleShape2.Size = New System.Drawing.Size(255, 166)
         '
         'RectangleShape1
         '
         Me.RectangleShape1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.RectangleShape1.BorderColor = System.Drawing.Color.White
         Me.RectangleShape1.CornerRadius = 41
         Me.RectangleShape1.FillColor = System.Drawing.Color.White
         Me.RectangleShape1.FillGradientColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(146, Byte), Integer))
         Me.RectangleShape1.FillGradientStyle = Microsoft.VisualBasic.PowerPacks.FillGradientStyle.ForwardDiagonal
         Me.RectangleShape1.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
-        Me.RectangleShape1.Location = New System.Drawing.Point(455, 287)
+        Me.RectangleShape1.Location = New System.Drawing.Point(475, 327)
         Me.RectangleShape1.Name = "RectangleShape1"
         Me.RectangleShape1.Size = New System.Drawing.Size(339, 215)
         '
@@ -198,10 +182,23 @@ Partial Class login
         Me.passTxtBox.TabIndex = 16
         Me.passTxtBox.UseSystemPasswordChar = True
         '
+        'RectangleShape4
+        '
+        Me.RectangleShape4.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.RectangleShape4.CornerRadius = 41
+        Me.RectangleShape4.FillColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(146, Byte), Integer))
+        Me.RectangleShape4.FillGradientColor = System.Drawing.Color.White
+        Me.RectangleShape4.FillGradientStyle = Microsoft.VisualBasic.PowerPacks.FillGradientStyle.BackwardDiagonal
+        Me.RectangleShape4.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid
+        Me.RectangleShape4.Location = New System.Drawing.Point(605, -37)
+        Me.RectangleShape4.Name = "RectangleShape4"
+        Me.RectangleShape4.Size = New System.Drawing.Size(339, 215)
+        '
         'login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(736, 493)
         Me.Controls.Add(Me.passTxtBox)
         Me.Controls.Add(Me.userNameTxtbox)
@@ -212,12 +209,9 @@ Partial Class login
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ShapeContainer1)
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
-        Me.Movable = False
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "login"
-        Me.Resizable = False
-        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
+        Me.Text = "login"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()

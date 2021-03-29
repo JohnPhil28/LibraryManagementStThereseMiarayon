@@ -118,106 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="PictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAhoAAAFyCAYAAACz9nOMAAAABGdBTUEAALGPC/xhBQAACmZJREFUeF7t
-        3c9uVOcdx2HfRpVKyaaLVGqvplKz6AUEIsZzZrBnBoY/ipIrcCSnlapmwMJSq66T4CyyrrqIjdum1G4V
-        m5jgyR/AFAxGnZ7jvFVUQQLG/i4QzyO9m3fOnPHu95HPmTNTz6rdbr8yPT3dqtdvTp48+aeZmZlrnU5n
-        t96fWJZlWZb1fK5mljczvZntrVbr1/XeiW63+3IZ/3n1B3bqD786GAy+Go1G/1xZWbm7vr4+GY/Hk93d
-        3QkA8PxqZnkz05vZfuXKlXvNrO/1el/Vs//vdQO0Sw4cvebkVVXtLS0tbWxtbZU/BwB4ETSz//Lly5t1
-        CzxormiUPDi8+mQ/P3Xq1D8WFxdvPHz4sHwcAPAi2tvbm1y6dOlG3Qafdrvdn5ZceDZ1ZPzq3LlzN3Z2
-        dsrpAQAmk6YNzpw5M66q6rWSDQczGAxOvvvuuxvlfAAAj5ifn9/s9XonSj48nbfeeuvswsLC1+UcAADf
-        azQajd9+++3TJSN+WHO5pK6Tz8p7AQCe6J133vmsbohflpx4vKqqftbck1HeAwDw1IbD4RftdvvVkhWP
-        mpmZuXLnzh1fLQEADuzWrVsPZ2dnl0tW/L+qqqYXFhb+VY4FADiw0WjUXEI5XvLiO83DuDwnAwA4jObJ
-        op1O527Ji2/VkdH96KOPrpdjAACe2fvvv3+91Wp995XX2dnZdY8VBwCOwsbGxqTX6/1tPzLa7fYrp06d
-        ulleAwA4tH6/f7uqqpea52a0FhcXPZwLADgyCwsL43a7fWzq9OnTv19dXS3bAACHt7y83PxXY9SExmrz
-        m/MAAEdlbW1tUjfGylRdGzfG43HZBgA4vO3t7eaG0OtT3W73fvOdVwCAo1Kep7HbfOukbAEAHJ2mMYQG
-        ABAhNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgR
-        GgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAg
-        RmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQA
-        gBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQ
-        AABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAx
-        QgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEA
-        xAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQG
-        ABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgR
-        GgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAg
-        RmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQA
-        gBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQ
-        AABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAx
-        QgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEA
-        xAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQG
-        ABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgR
-        GgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAg
-        RmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQA
-        gBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQ
-        AABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAx
-        QgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEA
-        xAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQG
-        ABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgR
-        GgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAg
-        RmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQsx8a
-        nU5nt1a2AAAOr2mLpjGmer3e1ng8LtsAAIe3vb09aRpjqt/vf7K+vl62AQAOb21tbVI3xp+nut3u71ZX
-        Vx+UfQCAQ1teXn4wMzPz2+Zm0BMXL168VvYBAA7tvffe+7zVar3e/Efj5cFg8E3ZBwA4tF6vd7vdbv9o
-        qjEzM3N1a2urvAQA8Ow2Njaa0PjLfmQ06uJof/zxx3fL6wAAz2xpaembVqv1RsmMb1VV9WBvb68cAgBw
-        cPfu3Wuen/HvkhffaW4KXVhY+LwcBwBwYKPR6Pr+TaCP0+/3/7qzs1MOBQB4ejdv3myenbFcsuJR7Xb7
-        1bNnz35ZjgcAeGrD4fDrVqv1k5IVj1dV1Wvz8/PXy3sAAJ5obm5us91u/6LkxA8bDAbtCxcu+M8GAPBE
-        o9Hoy9nZ2eMlI55O/YbW/Pz8ZjkHAMAj5ubmtg4cGf/TXEY5c+bM+Pbt2+V0AAD7N37+Zzgcjp/6csn3
-        aW4Q7ff7qxcvXty6f/9+OT0A8CLa3d1tLpVc6/V6nzzxxs+DqIPjjaqqdj/88MOta9f8BhsAvEg2Nzcn
-        H3zwwWbdAnfrJjhW8uDo1fUyXVfM1cFgsLO4uLizsrKy/5vz29vb+5UDADy/mlnezPRmtjcz/tKlS7ea
-        mT87O/vpiRMnWiUH8uoP+/H09PTxN99884/D4XC13+9/0el0duvKmViWZVmW9XyuZpY3M72e7VfOnz//
-        h3rvWFVVL5Xxf0BTU/8F02z2Te2mWKgAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="pictureBoxRectangle.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAhoAAAFyCAYAAACz9nOMAAAABGdBTUEAALGPC/xhBQAACmZJREFUeF7t
-        3c9uVOcdx2HfRpVKyaaLVGqvplKz6AUEIsZzZrBnBoY/ipIrcCSnlapmwMJSq66T4CyyrrqIjdum1G4V
-        m5jgyR/AFAxGnZ7jvFVUQQLG/i4QzyO9m3fOnPHu95HPmTNTz6rdbr8yPT3dqtdvTp48+aeZmZlrnU5n
-        t96fWJZlWZb1fK5mljczvZntrVbr1/XeiW63+3IZ/3n1B3bqD786GAy+Go1G/1xZWbm7vr4+GY/Hk93d
-        3QkA8PxqZnkz05vZfuXKlXvNrO/1el/Vs//vdQO0Sw4cvebkVVXtLS0tbWxtbZU/BwB4ETSz//Lly5t1
-        CzxormiUPDi8+mQ/P3Xq1D8WFxdvPHz4sHwcAPAi2tvbm1y6dOlG3Qafdrvdn5ZceDZ1ZPzq3LlzN3Z2
-        dsrpAQAmk6YNzpw5M66q6rWSDQczGAxOvvvuuxvlfAAAj5ifn9/s9XonSj48nbfeeuvswsLC1+UcAADf
-        azQajd9+++3TJSN+WHO5pK6Tz8p7AQCe6J133vmsbohflpx4vKqqftbck1HeAwDw1IbD4RftdvvVkhWP
-        mpmZuXLnzh1fLQEADuzWrVsPZ2dnl0tW/L+qqqYXFhb+VY4FADiw0WjUXEI5XvLiO83DuDwnAwA4jObJ
-        op1O527Ji2/VkdH96KOPrpdjAACe2fvvv3+91Wp995XX2dnZdY8VBwCOwsbGxqTX6/1tPzLa7fYrp06d
-        ulleAwA4tH6/f7uqqpea52a0FhcXPZwLADgyCwsL43a7fWzq9OnTv19dXS3bAACHt7y83PxXY9SExmrz
-        m/MAAEdlbW1tUjfGylRdGzfG43HZBgA4vO3t7eaG0OtT3W73fvOdVwCAo1Kep7HbfOukbAEAHJ2mMYQG
-        ABAhNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgR
-        GgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAg
-        RmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQA
-        gBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQ
-        AABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAx
-        QgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEA
-        xAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQG
-        ABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgR
-        GgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAg
-        RmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQA
-        gBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQ
-        AABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAx
-        QgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEA
-        xAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQG
-        ABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgR
-        GgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAg
-        RmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQA
-        gBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQ
-        AABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAx
-        QgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEA
-        xAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQG
-        ABAjNACAGKEBAMQIDQAgRmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgR
-        GgBAjNAAAGKEBgAQIzQAgBihAQDECA0AIEZoAAAxQgMAiBEaAECM0AAAYoQGABAjNACAGKEBAMQIDQAg
-        RmgAADFCAwCIERoAQIzQAABihAYAECM0AIAYoQEAxAgNACBGaAAAMUIDAIgRGgBAjNAAAGKEBgAQsx8a
-        nU5nt1a2AAAOr2mLpjGmer3e1ng8LtsAAIe3vb09aRpjqt/vf7K+vl62AQAOb21tbVI3xp+nut3u71ZX
-        Vx+UfQCAQ1teXn4wMzPz2+Zm0BMXL168VvYBAA7tvffe+7zVar3e/Efj5cFg8E3ZBwA4tF6vd7vdbv9o
-        qjEzM3N1a2urvAQA8Ow2Njaa0PjLfmQ06uJof/zxx3fL6wAAz2xpaembVqv1RsmMb1VV9WBvb68cAgBw
-        cPfu3Wuen/HvkhffaW4KXVhY+LwcBwBwYKPR6Pr+TaCP0+/3/7qzs1MOBQB4ejdv3myenbFcsuJR7Xb7
-        1bNnz35ZjgcAeGrD4fDrVqv1k5IVj1dV1Wvz8/PXy3sAAJ5obm5us91u/6LkxA8bDAbtCxcu+M8GAPBE
-        o9Hoy9nZ2eMlI55O/YbW/Pz8ZjkHAMAj5ubmtg4cGf/TXEY5c+bM+Pbt2+V0AAD7N37+Zzgcjp/6csn3
-        aW4Q7ff7qxcvXty6f/9+OT0A8CLa3d1tLpVc6/V6nzzxxs+DqIPjjaqqdj/88MOta9f8BhsAvEg2Nzcn
-        H3zwwWbdAnfrJjhW8uDo1fUyXVfM1cFgsLO4uLizsrKy/5vz29vb+5UDADy/mlnezPRmtjcz/tKlS7ea
-        mT87O/vpiRMnWiUH8uoP+/H09PTxN99884/D4XC13+9/0el0duvKmViWZVmW9XyuZpY3M72e7VfOnz//
-        h3rvWFVVL5Xxf0BTU/8F02z2Te2mWKgAAAAASUVORK5CYII=
-</value>
-  </data>
   <data name="PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAABNFJREFUaEPV
@@ -12314,16 +12214,37 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="Timer2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>120, 17</value>
-  </metadata>
-  <metadata name="Timer3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>223, 17</value>
-  </metadata>
-  <metadata name="Timer4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>326, 17</value>
-  </metadata>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>The words of ancient Chinese philosophers have influenced other thinkers across the world for more than 2,000 years, and continue to shape our ideas today. 
+The Art of War &amp; Other Classics of Eastern Philosophy includes translations of Sun Tzu's Art of War, Lao-Tzu's Tao Te Ching, the teachings of the master sage 
+Confucius, and the writings of Mencius. From insights on warfare and diplomacy to advice on how to deal with one's neighbors and colleagues, this collection 
+of classical Eastern philosophy will provide readers with countless nuggets of wisdom.</value>
+  </data>
+  <data name="Label40.Text" xml:space="preserve">
+    <value>The words of ancient Chinese philosophers have influenced other thinkers across the world for more than 2,000 years, and continue to
+shape our ideas today. The Art of War &amp; Other Classics of Eastern Philosophy includes translations of Sun Tzu's Art of War, Lao-Tzu's 
+Tao Te Ching, the teachings of the master sage Confucius, and the writings of Mencius. From insights on warfare and diplomacy to advice
+on how to deal with one's neighbors and colleagues, this collection of classical Eastern philosophy will provide readers with countless nuggets 
+of wisdom.</value>
+  </data>
+  <data name="Label49.Text" xml:space="preserve">
+    <value>The words of ancient Chinese philosophers have influenced other thinkers across the world for more than 2,000 years, and continue to
+shape our ideas today. The Art of War &amp; Other Classics of Eastern Philosophy includes translations of Sun Tzu's Art of War, Lao-Tzu's 
+Tao Te Ching, the teachings of the master sage Confucius, and the writings of Mencius. From insights on warfare and diplomacy to advice
+on how to deal with one's neighbors and colleagues, this collection of classical Eastern philosophy will provide readers with countless nuggets 
+of wisdom.</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>The words of ancient Chinese philosophers have influenced other thinkers across the world for more than 2,000 years, and continue to shape our ideas today. 
+The Art of War &amp; Other Classics of Eastern Philosophy includes translations of Sun Tzu's Art of War, Lao-Tzu's Tao Te Ching, the teachings of the master sage 
+Confucius, and the writings of Mencius. From insights on warfare and diplomacy to advice on how to deal with one's neighbors and colleagues, this collection 
+of classical Eastern philosophy will provide readers with countless nuggets of wisdom.</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>The words of ancient Chinese philosophers have influenced other thinkers across the world for more than 2,000 years, and continue to
+shape our ideas today. The Art of War &amp; Other Classics of Eastern Philosophy includes translations of Sun Tzu's Art of War, Lao-Tzu's 
+Tao Te Ching, the teachings of the master sage Confucius, and the writings of Mencius. From insights on warfare and diplomacy to advice
+on how to deal with one's neighbors and colleagues, this collection of classical Eastern philosophy will provide readers with countless nuggets 
+of wisdom.</value>
+  </data>
 </root>

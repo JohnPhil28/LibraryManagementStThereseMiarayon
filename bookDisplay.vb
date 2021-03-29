@@ -6,13 +6,9 @@
     Private Publisher As String
     Private Status As String
 
-    Private Sub bookDisplay_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'Dim rm As Resources.ResourceManager
-        'rm = New Resources.ResourceManager("LibraryManagementSystem.Resources", System.Reflection.Assembly.GetExecutingAssembly)
+    Private Sub RectangleShape1_Click(sender As Object, e As EventArgs) Handles RectangleShape1.Click
 
-        'PictureBox1.Image = rm.GetObject("pic 1")
     End Sub
-
 
     '  Public Sub New(Title As String, author As List(Of String), img As Image, Language As String, Publisher As String, Status As String)
 
