@@ -12,7 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -47,6 +47,12 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>download-removebg-preview.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
@@ -58,12 +64,14 @@
       <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Messaging" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -85,23 +93,59 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bookDisplay.Designer.vb">
-      <DependentUpon>bookDisplay.vb</DependentUpon>
+    <Compile Include="AddBook.Designer.vb">
+      <DependentUpon>AddBook.vb</DependentUpon>
     </Compile>
-    <Compile Include="bookDisplay.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="displayBookvb.vb" />
-    <Compile Include="advanceSearch.Designer.vb">
-      <DependentUpon>advanceSearch.vb</DependentUpon>
-    </Compile>
-    <Compile Include="advanceSearch.vb">
+    <Compile Include="AddBook.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Controls\addBookUserControl.Designer.vb">
+      <DependentUpon>addBookUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\addBookUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminView.Designer.vb">
+      <DependentUpon>adminView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="advanceSearch.Designer.vb">
+      <DependentUpon>advanceSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="advanceSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Controls\bookControlAdmin.Designer.vb">
+      <DependentUpon>bookControlAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\bookControlAdmin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\bookDisplay.Designer.vb">
+      <DependentUpon>bookDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\bookDisplay.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\collectionsUserControl.Designer.vb">
+      <DependentUpon>collectionsUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\collectionsUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilities\displayBookvb.vb" />
+    <Compile Include="IssueBook.Designer.vb">
+      <DependentUpon>IssueBook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IssueBook.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.Designer.vb">
@@ -133,17 +177,66 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="utils.vb" />
+    <Compile Include="User Controls\recordsUserControl.Designer.vb">
+      <DependentUpon>recordsUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\recordsUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilities\APIClientController\AdminController.vb" />
+    <Compile Include="Utilities\APIClientController\AuthorController.vb" />
+    <Compile Include="Utilities\APIClientController\BookController.vb" />
+    <Compile Include="Utilities\APIClientController\CategoryController.vb" />
+    <Compile Include="Utilities\APIClientController\HTTPRequestController.vb" />
+    <Compile Include="Utilities\APIClientController\ImageController.vb" />
+    <Compile Include="Utilities\Authorization.vb" />
+    <Compile Include="Utilities\DTOs\AuthorDTO.vb" />
+    <Compile Include="Utilities\DTOs\BookDetailsDTO.vb" />
+    <Compile Include="Utilities\DTOs\ClassificationDTO.vb" />
+    <Compile Include="Utilities\methods\utils.vb" />
+    <Compile Include="viewBook.Designer.vb">
+      <DependentUpon>viewBook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewBook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilities\Forms\TemporaryLogin.Designer.vb">
+      <DependentUpon>TemporaryLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\Forms\TemporaryLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User Controls\viewBookUserControl.Designer.vb">
+      <DependentUpon>viewBookUserControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\viewBookUserControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="bookDisplay.resx">
-      <DependentUpon>bookDisplay.vb</DependentUpon>
+    <EmbeddedResource Include="AddBook.resx">
+      <DependentUpon>AddBook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\addBookUserControl.resx">
+      <DependentUpon>addBookUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminView.resx">
+      <DependentUpon>adminView.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="advanceSearch.resx">
       <DependentUpon>advanceSearch.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="User Controls\bookControlAdmin.resx">
+      <DependentUpon>bookControlAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\bookDisplay.resx">
+      <DependentUpon>bookDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssueBook.resx">
+      <DependentUpon>IssueBook.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
@@ -153,13 +246,29 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\collectionsUserControl.resx">
+      <DependentUpon>collectionsUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\recordsUserControl.resx">
+      <DependentUpon>recordsUserControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewBook.resx">
+      <DependentUpon>viewBook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilities\Forms\TemporaryLogin.resx">
+      <DependentUpon>TemporaryLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\viewBookUserControl.resx">
+      <DependentUpon>viewBookUserControl.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -206,43 +315,68 @@
     <None Include="Resources\pic 1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Rectangle 5.png" />
+    <None Include="Resources\addHover.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Log In Dialog Box.png" />
+    <None Include="Resources\addBookBtn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Username.png" />
+    <None Include="Resources\AdminIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\padlock.png" />
+    <None Include="Resources\bookPng.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\user %281%29.png" />
+    <None Include="Resources\borrowBtn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Polygon3.png" />
+    <None Include="Resources\recordsBtn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Rectangle 221.png" />
+    <None Include="Resources\addIcon.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pic 1.jpg" />
+    <None Include="Resources\reserveBtn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Line 9.png" />
+    <None Include="Resources\addImageBtn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Line 16.png" />
+    <None Include="Resources\addImageBtn %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Find on Shelf Elements.png" />
+    <None Include="Resources\save.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Find on Shelf Elements2.png" />
+    <None Include="Resources\default-book.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Find on Shelf Elements3.png" />
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="book.ico" />
+    <Content Include="download-removebg-preview.ico" />
+    <Content Include="Resources\cancel.png" />
+    <None Include="Resources\icons8-reserve-24.png" />
+    <None Include="Resources\icons8-reserve-96.png" />
+    <None Include="Resources\icons8-reserve-48.png" />
+    <None Include="Resources\icons8-borrow-book-64.png" />
+    <Content Include="Resources\Log In Dialog Box.png" />
+    <Content Include="Resources\padlock.png" />
+    <Content Include="Resources\pic 11.png" />
+    <Content Include="Resources\Polygon 2.png" />
+    <Content Include="Resources\Polygon3.png" />
+    <Content Include="Resources\Rectangle 18.png" />
+    <Content Include="Resources\Rectangle 5.png" />
+    <Content Include="Resources\user %281%29.png" />
+    <Content Include="Resources\Username.png" />
+    <None Include="Resources\canceHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save2Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
