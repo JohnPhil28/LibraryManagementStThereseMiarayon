@@ -18,7 +18,7 @@ Partial Class Main
     Private components As System.ComponentModel.IContainer
 
     'NOTE: The following procedure is required by the Windows Form Designer
-    'It can be modified using the Windows Form Designer.  
+    'It can be modified using the Windows Form Designer.
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
@@ -47,30 +47,30 @@ Partial Class Main
         Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.RadioButtonTitle = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonAuthor = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonNewlyAdded = New System.Windows.Forms.RadioButton()
+        Me.RadioButtonPublicationDate = New System.Windows.Forms.RadioButton()
+        Me.TitleLogoSearchPanel = New System.Windows.Forms.Panel()
+        Me.searchTextBox = New System.Windows.Forms.TextBox()
+        Me.advanceSearchLinkLbl = New System.Windows.Forms.LinkLabel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
         Me.publisherBtn = New System.Windows.Forms.Button()
         Me.pbBtn = New System.Windows.Forms.Button()
         Me.authBtn = New System.Windows.Forms.Button()
         Me.newTitleBtn = New System.Windows.Forms.Button()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.RadioButtonTitle = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonAuthor = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonNewlyAdded = New System.Windows.Forms.RadioButton()
-        Me.RadioButtonPublicationDate = New System.Windows.Forms.RadioButton()
         Me.pictureBoxRectangle = New System.Windows.Forms.PictureBox()
-        Me.TitleLogoSearchPanel = New System.Windows.Forms.Panel()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.searchTextBox = New System.Windows.Forms.TextBox()
-        Me.advanceSearchLinkLbl = New System.Windows.Forms.LinkLabel()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.loginBtn = New System.Windows.Forms.Button()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
-        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
-        Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
         Me.mainPanel.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.leftMainScreenPanel.SuspendLayout()
@@ -79,9 +79,9 @@ Partial Class Main
         Me.pbPanel.SuspendLayout()
         Me.authPanel.SuspendLayout()
         Me.newTitlePanel.SuspendLayout()
+        Me.TitleLogoSearchPanel.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pictureBoxRectangle, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TitleLogoSearchPanel.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -387,6 +387,145 @@ Partial Class Main
         Me.LinkLabel1.Text = "Last Three Months"
         Me.LinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(99, Byte), Integer))
         '
+        'RadioButtonTitle
+        '
+        Me.RadioButtonTitle.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadioButtonTitle.AutoSize = True
+        Me.RadioButtonTitle.Font = New System.Drawing.Font("Sitka Display", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonTitle.Location = New System.Drawing.Point(25, 154)
+        Me.RadioButtonTitle.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButtonTitle.Name = "RadioButtonTitle"
+        Me.RadioButtonTitle.Size = New System.Drawing.Size(170, 43)
+        Me.RadioButtonTitle.TabIndex = 11
+        Me.RadioButtonTitle.TabStop = True
+        Me.RadioButtonTitle.Text = "Sort By Title"
+        Me.RadioButtonTitle.UseVisualStyleBackColor = True
+        '
+        'RadioButtonAuthor
+        '
+        Me.RadioButtonAuthor.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadioButtonAuthor.AutoSize = True
+        Me.RadioButtonAuthor.Font = New System.Drawing.Font("Sitka Display", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonAuthor.Location = New System.Drawing.Point(25, 104)
+        Me.RadioButtonAuthor.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButtonAuthor.Name = "RadioButtonAuthor"
+        Me.RadioButtonAuthor.Size = New System.Drawing.Size(195, 43)
+        Me.RadioButtonAuthor.TabIndex = 11
+        Me.RadioButtonAuthor.TabStop = True
+        Me.RadioButtonAuthor.Text = "Sort By Author"
+        Me.RadioButtonAuthor.UseVisualStyleBackColor = True
+        '
+        'RadioButtonNewlyAdded
+        '
+        Me.RadioButtonNewlyAdded.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadioButtonNewlyAdded.AutoSize = True
+        Me.RadioButtonNewlyAdded.Font = New System.Drawing.Font("Sitka Display", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonNewlyAdded.Location = New System.Drawing.Point(25, 4)
+        Me.RadioButtonNewlyAdded.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButtonNewlyAdded.Name = "RadioButtonNewlyAdded"
+        Me.RadioButtonNewlyAdded.Size = New System.Drawing.Size(261, 43)
+        Me.RadioButtonNewlyAdded.TabIndex = 11
+        Me.RadioButtonNewlyAdded.TabStop = True
+        Me.RadioButtonNewlyAdded.Text = "Sort By Newly Added"
+        Me.RadioButtonNewlyAdded.UseVisualStyleBackColor = True
+        '
+        'RadioButtonPublicationDate
+        '
+        Me.RadioButtonPublicationDate.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadioButtonPublicationDate.AutoSize = True
+        Me.RadioButtonPublicationDate.Font = New System.Drawing.Font("Sitka Display", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButtonPublicationDate.Location = New System.Drawing.Point(25, 54)
+        Me.RadioButtonPublicationDate.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButtonPublicationDate.Name = "RadioButtonPublicationDate"
+        Me.RadioButtonPublicationDate.Size = New System.Drawing.Size(296, 43)
+        Me.RadioButtonPublicationDate.TabIndex = 11
+        Me.RadioButtonPublicationDate.TabStop = True
+        Me.RadioButtonPublicationDate.Text = "Sort By Publication Date"
+        Me.RadioButtonPublicationDate.UseVisualStyleBackColor = True
+        '
+        'TitleLogoSearchPanel
+        '
+        Me.TitleLogoSearchPanel.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.TitleLogoSearchPanel.BackColor = System.Drawing.Color.White
+        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox8)
+        Me.TitleLogoSearchPanel.Controls.Add(Me.searchTextBox)
+        Me.TitleLogoSearchPanel.Controls.Add(Me.advanceSearchLinkLbl)
+        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox9)
+        Me.TitleLogoSearchPanel.Controls.Add(Me.Label1)
+        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox3)
+        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox2)
+        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox1)
+        Me.TitleLogoSearchPanel.Location = New System.Drawing.Point(419, 33)
+        Me.TitleLogoSearchPanel.Margin = New System.Windows.Forms.Padding(4)
+        Me.TitleLogoSearchPanel.MaximumSize = New System.Drawing.Size(620, 169)
+        Me.TitleLogoSearchPanel.MinimumSize = New System.Drawing.Size(620, 169)
+        Me.TitleLogoSearchPanel.Name = "TitleLogoSearchPanel"
+        Me.TitleLogoSearchPanel.Size = New System.Drawing.Size(620, 169)
+        Me.TitleLogoSearchPanel.TabIndex = 18
+        '
+        'searchTextBox
+        '
+        Me.searchTextBox.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.searchTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.searchTextBox.Font = New System.Drawing.Font("Sitka Subheading", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.searchTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(119, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.searchTextBox.Location = New System.Drawing.Point(69, 96)
+        Me.searchTextBox.Margin = New System.Windows.Forms.Padding(2)
+        Me.searchTextBox.Name = "searchTextBox"
+        Me.searchTextBox.Size = New System.Drawing.Size(349, 26)
+        Me.searchTextBox.TabIndex = 8
+        Me.searchTextBox.Text = "Search..."
+        '
+        'advanceSearchLinkLbl
+        '
+        Me.advanceSearchLinkLbl.ActiveLinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(99, Byte), Integer))
+        Me.advanceSearchLinkLbl.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.advanceSearchLinkLbl.BackColor = System.Drawing.Color.Transparent
+        Me.advanceSearchLinkLbl.Font = New System.Drawing.Font("Sitka Subheading", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.advanceSearchLinkLbl.LinkColor = System.Drawing.Color.FromArgb(CType(CType(119, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.advanceSearchLinkLbl.Location = New System.Drawing.Point(215, 134)
+        Me.advanceSearchLinkLbl.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.advanceSearchLinkLbl.Name = "advanceSearchLinkLbl"
+        Me.advanceSearchLinkLbl.Size = New System.Drawing.Size(179, 35)
+        Me.advanceSearchLinkLbl.TabIndex = 7
+        Me.advanceSearchLinkLbl.TabStop = True
+        Me.advanceSearchLinkLbl.Text = "Advance Search"
+        '
+        'Label1
+        '
+        Me.Label1.AccessibleRole = System.Windows.Forms.AccessibleRole.Client
+        Me.Label1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(145, 6)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(392, 74)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "St. Therese School of Miarayon" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Library Management System" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'Timer1
+        '
+        '
+        'Timer2
+        '
+        '
+        'Timer3
+        '
+        '
+        'Timer4
+        '
+        '
         'publisherBtn
         '
         Me.publisherBtn.BackColor = System.Drawing.Color.White
@@ -479,70 +618,6 @@ Partial Class Main
         Me.PictureBox4.TabIndex = 12
         Me.PictureBox4.TabStop = False
         '
-        'RadioButtonTitle
-        '
-        Me.RadioButtonTitle.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadioButtonTitle.AutoSize = True
-        Me.RadioButtonTitle.Font = New System.Drawing.Font("Sitka Display", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonTitle.Location = New System.Drawing.Point(25, 154)
-        Me.RadioButtonTitle.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButtonTitle.Name = "RadioButtonTitle"
-        Me.RadioButtonTitle.Size = New System.Drawing.Size(170, 43)
-        Me.RadioButtonTitle.TabIndex = 11
-        Me.RadioButtonTitle.TabStop = True
-        Me.RadioButtonTitle.Text = "Sort By Title"
-        Me.RadioButtonTitle.UseVisualStyleBackColor = True
-        '
-        'RadioButtonAuthor
-        '
-        Me.RadioButtonAuthor.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadioButtonAuthor.AutoSize = True
-        Me.RadioButtonAuthor.Font = New System.Drawing.Font("Sitka Display", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonAuthor.Location = New System.Drawing.Point(25, 104)
-        Me.RadioButtonAuthor.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButtonAuthor.Name = "RadioButtonAuthor"
-        Me.RadioButtonAuthor.Size = New System.Drawing.Size(195, 43)
-        Me.RadioButtonAuthor.TabIndex = 11
-        Me.RadioButtonAuthor.TabStop = True
-        Me.RadioButtonAuthor.Text = "Sort By Author"
-        Me.RadioButtonAuthor.UseVisualStyleBackColor = True
-        '
-        'RadioButtonNewlyAdded
-        '
-        Me.RadioButtonNewlyAdded.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadioButtonNewlyAdded.AutoSize = True
-        Me.RadioButtonNewlyAdded.Font = New System.Drawing.Font("Sitka Display", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonNewlyAdded.Location = New System.Drawing.Point(25, 4)
-        Me.RadioButtonNewlyAdded.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButtonNewlyAdded.Name = "RadioButtonNewlyAdded"
-        Me.RadioButtonNewlyAdded.Size = New System.Drawing.Size(261, 43)
-        Me.RadioButtonNewlyAdded.TabIndex = 11
-        Me.RadioButtonNewlyAdded.TabStop = True
-        Me.RadioButtonNewlyAdded.Text = "Sort By Newly Added"
-        Me.RadioButtonNewlyAdded.UseVisualStyleBackColor = True
-        '
-        'RadioButtonPublicationDate
-        '
-        Me.RadioButtonPublicationDate.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadioButtonPublicationDate.AutoSize = True
-        Me.RadioButtonPublicationDate.Font = New System.Drawing.Font("Sitka Display", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButtonPublicationDate.Location = New System.Drawing.Point(25, 54)
-        Me.RadioButtonPublicationDate.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButtonPublicationDate.Name = "RadioButtonPublicationDate"
-        Me.RadioButtonPublicationDate.Size = New System.Drawing.Size(296, 43)
-        Me.RadioButtonPublicationDate.TabIndex = 11
-        Me.RadioButtonPublicationDate.TabStop = True
-        Me.RadioButtonPublicationDate.Text = "Sort By Publication Date"
-        Me.RadioButtonPublicationDate.UseVisualStyleBackColor = True
-        '
         'pictureBoxRectangle
         '
         Me.pictureBoxRectangle.BackColor = System.Drawing.Color.Transparent
@@ -554,26 +629,6 @@ Partial Class Main
         Me.pictureBoxRectangle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pictureBoxRectangle.TabIndex = 10
         Me.pictureBoxRectangle.TabStop = False
-        '
-        'TitleLogoSearchPanel
-        '
-        Me.TitleLogoSearchPanel.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.TitleLogoSearchPanel.BackColor = System.Drawing.Color.White
-        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox8)
-        Me.TitleLogoSearchPanel.Controls.Add(Me.searchTextBox)
-        Me.TitleLogoSearchPanel.Controls.Add(Me.advanceSearchLinkLbl)
-        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox9)
-        Me.TitleLogoSearchPanel.Controls.Add(Me.Label1)
-        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox3)
-        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox2)
-        Me.TitleLogoSearchPanel.Controls.Add(Me.PictureBox1)
-        Me.TitleLogoSearchPanel.Location = New System.Drawing.Point(419, 33)
-        Me.TitleLogoSearchPanel.Margin = New System.Windows.Forms.Padding(4)
-        Me.TitleLogoSearchPanel.MaximumSize = New System.Drawing.Size(620, 169)
-        Me.TitleLogoSearchPanel.MinimumSize = New System.Drawing.Size(620, 169)
-        Me.TitleLogoSearchPanel.Name = "TitleLogoSearchPanel"
-        Me.TitleLogoSearchPanel.Size = New System.Drawing.Size(620, 169)
-        Me.TitleLogoSearchPanel.TabIndex = 18
         '
         'PictureBox8
         '
@@ -588,35 +643,6 @@ Partial Class Main
         Me.PictureBox8.TabIndex = 12
         Me.PictureBox8.TabStop = False
         '
-        'searchTextBox
-        '
-        Me.searchTextBox.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.searchTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.searchTextBox.Font = New System.Drawing.Font("Sitka Subheading", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.searchTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(119, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.searchTextBox.Location = New System.Drawing.Point(69, 96)
-        Me.searchTextBox.Margin = New System.Windows.Forms.Padding(2)
-        Me.searchTextBox.Name = "searchTextBox"
-        Me.searchTextBox.Size = New System.Drawing.Size(349, 26)
-        Me.searchTextBox.TabIndex = 8
-        Me.searchTextBox.Text = "Search..."
-        '
-        'advanceSearchLinkLbl
-        '
-        Me.advanceSearchLinkLbl.ActiveLinkColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(99, Byte), Integer))
-        Me.advanceSearchLinkLbl.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.advanceSearchLinkLbl.BackColor = System.Drawing.Color.Transparent
-        Me.advanceSearchLinkLbl.Font = New System.Drawing.Font("Sitka Subheading", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.advanceSearchLinkLbl.LinkColor = System.Drawing.Color.FromArgb(CType(CType(119, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.advanceSearchLinkLbl.Location = New System.Drawing.Point(215, 134)
-        Me.advanceSearchLinkLbl.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.advanceSearchLinkLbl.Name = "advanceSearchLinkLbl"
-        Me.advanceSearchLinkLbl.Size = New System.Drawing.Size(179, 35)
-        Me.advanceSearchLinkLbl.TabIndex = 7
-        Me.advanceSearchLinkLbl.TabStop = True
-        Me.advanceSearchLinkLbl.Text = "Advance Search"
-        '
         'PictureBox9
         '
         Me.PictureBox9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -630,19 +656,6 @@ Partial Class Main
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 6
         Me.PictureBox9.TabStop = False
-        '
-        'Label1
-        '
-        Me.Label1.AccessibleRole = System.Windows.Forms.AccessibleRole.Client
-        Me.Label1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label1.Font = New System.Drawing.Font("Maiandra GD", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(145, 6)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(392, 74)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "St. Therese School of Miarayon" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Library Management System" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'PictureBox3
         '
@@ -686,24 +699,16 @@ Partial Class Main
         Me.loginBtn.FlatAppearance.BorderSize = 0
         Me.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.loginBtn.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.loginBtn.Location = New System.Drawing.Point(1221, 11)
+
+        Me.loginBtn.Image = Global.LibraryManagementSystem.My.Resources.Resources.log_in
+        Me.loginBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.loginBtn.Location = New System.Drawing.Point(1257, 11)
+
         Me.loginBtn.Name = "loginBtn"
-        Me.loginBtn.Size = New System.Drawing.Size(214, 57)
+        Me.loginBtn.Size = New System.Drawing.Size(178, 57)
         Me.loginBtn.TabIndex = 17
         Me.loginBtn.Text = "Log In"
         Me.loginBtn.UseVisualStyleBackColor = False
-        '
-        'Timer1
-        '
-        '
-        'Timer2
-        '
-        '
-        'Timer3
-        '
-        '
-        'Timer4
-        '
         '
         'Main
         '
@@ -734,10 +739,10 @@ Partial Class Main
         Me.authPanel.PerformLayout()
         Me.newTitlePanel.ResumeLayout(False)
         Me.newTitlePanel.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pictureBoxRectangle, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TitleLogoSearchPanel.ResumeLayout(False)
         Me.TitleLogoSearchPanel.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureBoxRectangle, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
