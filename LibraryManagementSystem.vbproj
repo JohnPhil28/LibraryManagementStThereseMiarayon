@@ -366,6 +366,7 @@
     <None Include="Resources\Data-View-Details-icon.png" />
     <Content Include="Resources\Log In Dialog Box.png" />
     <None Include="Resources\logout.png" />
+    <None Include="Resources\log-in.png" />
     <Content Include="Resources\padlock.png" />
     <Content Include="Resources\pic 11.png" />
     <Content Include="Resources\Polygon 2.png" />
