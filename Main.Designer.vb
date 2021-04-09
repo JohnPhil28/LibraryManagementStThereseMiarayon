@@ -643,7 +643,6 @@ Partial Class Main
         Me.Label1.Size = New System.Drawing.Size(392, 74)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "St. Therese School of Miarayon" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Library Management System" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'PictureBox3
         '
