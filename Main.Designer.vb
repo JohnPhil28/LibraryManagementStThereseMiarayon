@@ -18,7 +18,7 @@ Partial Class Main
     Private components As System.ComponentModel.IContainer
 
     'NOTE: The following procedure is required by the Windows Form Designer
-    'It can be modified using the Windows Form Designer.
+    'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
@@ -63,8 +63,8 @@ Partial Class Main
         Me.pbBtn = New System.Windows.Forms.Button()
         Me.authBtn = New System.Windows.Forms.Button()
         Me.newTitleBtn = New System.Windows.Forms.Button()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.pictureBoxRectangle = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -80,8 +80,8 @@ Partial Class Main
         Me.authPanel.SuspendLayout()
         Me.newTitlePanel.SuspendLayout()
         Me.TitleLogoSearchPanel.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pictureBoxRectangle, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -124,7 +124,7 @@ Partial Class Main
         Me.PageNumLabel.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PageNumLabel.AutoSize = True
-        Me.PageNumLabel.Location = New System.Drawing.Point(1094, 676)
+        Me.PageNumLabel.Location = New System.Drawing.Point(1044, 676)
         Me.PageNumLabel.Name = "PageNumLabel"
         Me.PageNumLabel.Size = New System.Drawing.Size(67, 25)
         Me.PageNumLabel.TabIndex = 17
@@ -139,7 +139,7 @@ Partial Class Main
         Me.Button_Back.Font = New System.Drawing.Font("Sitka Small", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button_Back.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
         Me.Button_Back.LinkColor = System.Drawing.Color.FromArgb(CType(CType(119, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.Button_Back.Location = New System.Drawing.Point(947, 676)
+        Me.Button_Back.Location = New System.Drawing.Point(897, 676)
         Me.Button_Back.Name = "Button_Back"
         Me.Button_Back.Size = New System.Drawing.Size(87, 25)
         Me.Button_Back.TabIndex = 20
@@ -155,7 +155,7 @@ Partial Class Main
         Me.LinkLabel13.Font = New System.Drawing.Font("Sitka Small", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel13.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
         Me.LinkLabel13.LinkColor = System.Drawing.Color.FromArgb(CType(CType(119, Byte), Integer), CType(CType(117, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.LinkLabel13.Location = New System.Drawing.Point(1225, 676)
+        Me.LinkLabel13.Location = New System.Drawing.Point(1175, 676)
         Me.LinkLabel13.Name = "LinkLabel13"
         Me.LinkLabel13.Size = New System.Drawing.Size(53, 25)
         Me.LinkLabel13.TabIndex = 21
@@ -197,26 +197,25 @@ Partial Class Main
         Me.scrollablePanel.Controls.Add(Me.pbBtn)
         Me.scrollablePanel.Controls.Add(Me.authBtn)
         Me.scrollablePanel.Controls.Add(Me.newTitleBtn)
-        Me.scrollablePanel.Controls.Add(Me.PictureBox4)
         Me.scrollablePanel.Controls.Add(Me.RadioButtonTitle)
         Me.scrollablePanel.Controls.Add(Me.RadioButtonAuthor)
         Me.scrollablePanel.Controls.Add(Me.RadioButtonNewlyAdded)
         Me.scrollablePanel.Controls.Add(Me.RadioButtonPublicationDate)
         Me.scrollablePanel.Controls.Add(Me.pictureBoxRectangle)
+        Me.scrollablePanel.Controls.Add(Me.PictureBox4)
         Me.scrollablePanel.Location = New System.Drawing.Point(4, 4)
         Me.scrollablePanel.Margin = New System.Windows.Forms.Padding(4)
         Me.scrollablePanel.Name = "scrollablePanel"
-        Me.scrollablePanel.Size = New System.Drawing.Size(331, 875)
+        Me.scrollablePanel.Size = New System.Drawing.Size(331, 1175)
         Me.scrollablePanel.TabIndex = 0
         '
         'classPanel
         '
-        Me.classPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.classPanel.Controls.Add(Me.searchClassification)
         Me.classPanel.Controls.Add(Me.ComboBox2)
-        Me.classPanel.Location = New System.Drawing.Point(47, 469)
+        Me.classPanel.Location = New System.Drawing.Point(32, 462)
         Me.classPanel.Name = "classPanel"
-        Me.classPanel.Size = New System.Drawing.Size(398, 0)
+        Me.classPanel.Size = New System.Drawing.Size(254, 0)
         Me.classPanel.TabIndex = 17
         '
         'searchClassification
@@ -245,14 +244,13 @@ Partial Class Main
         '
         'pbPanel
         '
-        Me.pbPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.pbPanel.Controls.Add(Me.searchYear)
         Me.pbPanel.Controls.Add(Me.Label2)
         Me.pbPanel.Controls.Add(Me.afterYear)
         Me.pbPanel.Controls.Add(Me.beforeYear)
         Me.pbPanel.Location = New System.Drawing.Point(22, 417)
         Me.pbPanel.Name = "pbPanel"
-        Me.pbPanel.Size = New System.Drawing.Size(299, 0)
+        Me.pbPanel.Size = New System.Drawing.Size(276, 0)
         Me.pbPanel.TabIndex = 16
         '
         'searchYear
@@ -262,7 +260,7 @@ Partial Class Main
         Me.searchYear.Font = New System.Drawing.Font("Sitka Small", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.searchYear.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
         Me.searchYear.LinkColor = System.Drawing.Color.Black
-        Me.searchYear.Location = New System.Drawing.Point(101, 88)
+        Me.searchYear.Location = New System.Drawing.Point(76, 83)
         Me.searchYear.Name = "searchYear"
         Me.searchYear.Size = New System.Drawing.Size(97, 35)
         Me.searchYear.TabIndex = 2
@@ -273,7 +271,7 @@ Partial Class Main
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(131, 48)
+        Me.Label2.Location = New System.Drawing.Point(106, 45)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(36, 25)
         Me.Label2.TabIndex = 1
@@ -282,9 +280,9 @@ Partial Class Main
         'afterYear
         '
         Me.afterYear.FormattingEnabled = True
-        Me.afterYear.Location = New System.Drawing.Point(175, 42)
+        Me.afterYear.Location = New System.Drawing.Point(145, 42)
         Me.afterYear.Name = "afterYear"
-        Me.afterYear.Size = New System.Drawing.Size(121, 33)
+        Me.afterYear.Size = New System.Drawing.Size(103, 33)
         Me.afterYear.TabIndex = 0
         '
         'beforeYear
@@ -292,7 +290,7 @@ Partial Class Main
         Me.beforeYear.FormattingEnabled = True
         Me.beforeYear.Location = New System.Drawing.Point(0, 42)
         Me.beforeYear.Name = "beforeYear"
-        Me.beforeYear.Size = New System.Drawing.Size(121, 33)
+        Me.beforeYear.Size = New System.Drawing.Size(103, 33)
         Me.beforeYear.TabIndex = 0
         '
         'authPanel
@@ -537,7 +535,7 @@ Partial Class Main
         Me.publisherBtn.Font = New System.Drawing.Font("Sitka Display", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.publisherBtn.Image = Global.LibraryManagementSystem.My.Resources.Resources.Polygon3
         Me.publisherBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.publisherBtn.Location = New System.Drawing.Point(25, 417)
+        Me.publisherBtn.Location = New System.Drawing.Point(25, 413)
         Me.publisherBtn.Name = "publisherBtn"
         Me.publisherBtn.Size = New System.Drawing.Size(276, 52)
         Me.publisherBtn.TabIndex = 13
@@ -606,18 +604,6 @@ Partial Class Main
         Me.newTitleBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.newTitleBtn.UseVisualStyleBackColor = False
         '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(2, 234)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(322, 930)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 12
-        Me.PictureBox4.TabStop = False
-        '
         'pictureBoxRectangle
         '
         Me.pictureBoxRectangle.BackColor = System.Drawing.Color.Transparent
@@ -629,6 +615,18 @@ Partial Class Main
         Me.pictureBoxRectangle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pictureBoxRectangle.TabIndex = 10
         Me.pictureBoxRectangle.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(2, 221)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(322, 938)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 12
+        Me.PictureBox4.TabStop = False
         '
         'PictureBox8
         '
@@ -699,13 +697,11 @@ Partial Class Main
         Me.loginBtn.FlatAppearance.BorderSize = 0
         Me.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.loginBtn.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-
-        Me.loginBtn.Image = Global.LibraryManagementSystem.My.Resources.Resources.log_in
+        ' Me.loginBtn.Image = Global.LibraryManagementSystem.My.Resources.Resources.log_in1
         Me.loginBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.loginBtn.Location = New System.Drawing.Point(1257, 11)
-
+        Me.loginBtn.Location = New System.Drawing.Point(1289, 3)
         Me.loginBtn.Name = "loginBtn"
-        Me.loginBtn.Size = New System.Drawing.Size(178, 57)
+        Me.loginBtn.Size = New System.Drawing.Size(154, 57)
         Me.loginBtn.TabIndex = 17
         Me.loginBtn.Text = "Log In"
         Me.loginBtn.UseVisualStyleBackColor = False
@@ -741,8 +737,8 @@ Partial Class Main
         Me.newTitlePanel.PerformLayout()
         Me.TitleLogoSearchPanel.ResumeLayout(False)
         Me.TitleLogoSearchPanel.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pictureBoxRectangle, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
