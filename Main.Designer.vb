@@ -686,8 +686,8 @@ Partial Class Main
         Me.loginBtn.BackColor = System.Drawing.Color.White
         Me.loginBtn.FlatAppearance.BorderSize = 0
         Me.loginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.loginBtn.Font = New System.Drawing.Font("Sitka Display", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.loginBtn.Location = New System.Drawing.Point(1149, 21)
+        Me.loginBtn.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loginBtn.Location = New System.Drawing.Point(1221, 11)
         Me.loginBtn.Name = "loginBtn"
         Me.loginBtn.Size = New System.Drawing.Size(214, 57)
         Me.loginBtn.TabIndex = 17
